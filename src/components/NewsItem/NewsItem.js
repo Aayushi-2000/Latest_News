@@ -8,6 +8,7 @@ import "./NewsItem.css";
 function NewsItem(props) {
   const { imageUrl, alt, description, title, channel, published, urlNews } =
     props;
+    console.log('response',props)
 
   return (
     <Card className="card">

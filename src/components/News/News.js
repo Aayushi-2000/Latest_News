@@ -40,6 +40,7 @@ function News(props) {
     // eslint-disable-next-line
   }, []);
 
+
   return (
     <>
       {loading ? (
